@@ -17,12 +17,18 @@ Example config:
     password = supersupersecure
     login = admin
 
+## Installing
+
+> `pipenv` and `pyenv` are required
+
+    pipenv install
+
 ## CLI
 
 Test your config:
 
-    python test_connection.py database.ini
+    pipenv run python test_connection.py database.ini
 
 Update user's password:
 
-    python update.py database.ini
+    pipenv run python update.py database.ini
