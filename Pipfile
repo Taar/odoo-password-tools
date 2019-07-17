@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+click = "==7.0"
+passlib = "==1.7.1"
+"psycopg2" = "==2.8.3"
+
+[dev-packages]
+pylint = "*"
+mypy = "*"
+
+[requires]
+python_version = "3.6"
+
+[dev-packages]
+pylint = "*"
+mypy = "*"
